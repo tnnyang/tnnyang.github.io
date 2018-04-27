@@ -1,0 +1,58 @@
+{
+  "getCustomerOrderCount": {
+  	"msg": "获取成功", 
+  	"code": 0, 
+  	"data": {
+      "allotCount": 0,
+      "confiremedCount": 0,
+      "excuteCount": 0,
+      "pendingCount": 1  	
+    }
+  },
+  "getOrderRecord": {
+  	"msg": "获取成功", 
+  	"code": 0,
+    "pageNo": 1,
+    "pageSize": 7,
+    "pages": 3,
+    "total": 15,
+  	"data":{
+  		"dataList": [
+  			{"id": 1, "orderNo":1804231730010001, "orderCustCompoundName": "新华小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-04-25 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 144, "modelName": "标准模板", "orderState": 1},
+  			{"id": 2, "orderNo":1804231730010001, "orderCustCompoundName": "衡山小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-04-27 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 50, "modelName": "测试模板J", "orderState": 3},
+  			{"id": 3, "orderNo":1804231730010001, "orderCustCompoundName": "嘉善小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-04-26 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 100, "modelName": "模板A", "orderState": 5},
+  			{"id": 4, "orderNo":1804231730010001, "orderCustCompoundName": "万里小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-04-28 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 120, "modelName": "标准模板B", "orderState": 1},
+  			{"id": 5, "orderNo":1804231730010001, "orderCustCompoundName": "甘泉小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-04-29 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 35, "modelName": "模板C", "orderState": 7},
+  			{"id": 6, "orderNo":1804231730010001, "orderCustCompoundName": "镇宁小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-04-30 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 20, "modelName": "标准模板B", "orderState": 6},
+  			{"id": 7, "orderNo":1804231730010001, "orderCustCompoundName": "淮海小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-05 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 500, "modelName": "模板D", "orderState": 2},
+  			{"id": 8, "orderNo":1804231730010001, "orderCustCompoundName": "真如小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-10 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 1000, "modelName": "模板E", "orderState": 4},
+  			{"id": 9, "orderNo":1804231730010001, "orderCustCompoundName": "天童小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-15 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 5230, "modelName": "标准模板C", "orderState": 6},
+  			{"id": 10, "orderNo":1804231730010001, "orderCustCompoundName": "外滩小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-25 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 1586, "modelName": "测试模板F", "orderState": 3},
+  			{"id": 11, "orderNo":1804231730010001, "orderCustCompoundName": "南京小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-20 17:30", "modelPrice": 5782, "modelName": "标准模板", "orderState": 7},
+  			{"id": 12, "orderNo":1804231730010001, "orderCustCompoundName": "江宁小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-11 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 605, "modelName": "模板O", "orderState": 1},
+  			{"id": 13, "orderNo":1804231730010001, "orderCustCompoundName": "新天地小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-28 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 356, "modelName": "模板B", "orderState": 5},
+  			{"id": 14, "orderNo":1804231730010001, "orderCustCompoundName": "浙沪小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-26 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 821, "modelName": "标准模板C", "orderState": 4},
+  			{"id": 15, "orderNo":1804231730010001, "orderCustCompoundName": "厦门小区", "createTime": "2018-04-23 17:30", "orderCustTime": "2018-05-12 17:30", "svingTime": "2018-04-29 17:30", "modelPrice": 937, "modelName": "模板M", "orderState": 6}
+  		]  		
+  	}
+  },
+  "getModelList": [
+    {"id": 1, "modelName": "标准模板"},
+    {"id": 2, "modelName": "模板A"},
+    {"id": 3, "modelName": "模板B"}
+  ],
+  "info": {"code": 0, "account": 5000, "parentId": 0, "username": "customer", "mobile": "13838384389", "email": "PCQ_Customer_1@163.com"},
+  "getOrderDetail": {"code": 0, "orderNo":1804231730010001, "orderCustTime": "2018-04-25 17:30", "orderCustAddr": "上海市黄浦区瞿溪路1236弄"},
+  "subUserInfo": {
+    "code": 0,
+    "list": [
+      {"userId": 1, "username": "subCustomer", "name": "小坏", "mobile": "15921909349", "email": "2275182329@qq.com", "status": 1, "lastLogin": "2017-11-30 00:00:00"},
+      {"userId": 2, "username": "test", "name": "tnnyang", "mobile": "13472802689", "email": "95689565@qq.com", "status": 1, "lastLogin": "2015-05-30 00:00:00"},
+      {"userId": 3, "username": "guest", "name": "PCQ", "mobile": "1895268922", "email": "912586258@qq.com", "status": 1, "lastLogin": "2016-06-22 00:00:00"},
+      {"userId": 4, "username": "admin", "name": "xiaolu", "mobile": "1582568613", "email": "626895263@qq.com", "status": 1, "lastLogin": "2017-03-15 00:00:00"}
+    ]
+  },
+  "subUserDetail": {
+    "code": 0,"username": "subCustomer", "name": "小坏", "mobile": "15921909349", "email": "2275182329@qq.com"
+  }
+}
