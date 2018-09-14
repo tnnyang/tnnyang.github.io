@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*CSS Document*/
+.fund_nav, .fund_item{overflow:hidden;}
+.fund_nav li{float:left;margin:103px 40px 0 0;}
+.fund_nav li a{display:block;width:108px;height:40px;font-size:22px;text-align:center;}
+.fund_nav li a:hover, .fund_nav li a.active{border-bottom:2px solid #c8a56f;color:#c8a56f;}
+.trust_nav li a.active{border:none;}
+.fund_item{
+	background:#313131;
+	background-image:-webkit-linear-gradient(to right, #313131, #252525);
+	background-image:-moz-linear-gradient(to right, #313131, #252525);
+	background-image:-ms-linear-gradient(to right, #313131, #252525);
+	background-image:-o-linear-gradient(to right, #313131, #252525);
+	background-image:linear-gradient(to right, #313131, #252525);
+	border-radius:10px;text-align:center;color:#fff;margin-top:43px;padding-left:40px;
+}
+.fund_item > .fl{margin-top:45px;}
+.fund_name{font-size:22px;width:300px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:block;margin-top:2px;}
+.fund_item:hover .name{color:#c8a56f;}
+.fund_desc{font-size:14px;color:#bbb;margin-top:23px;}
+.fund_price{width:146px;}
+.fund_limit{width:100px;}
+.fund_manager{width:210px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin-top:6px;}
+.fund_price, .fund_limit, .fund_manager{font-size:18px;}
+.fund_price span, .fund_limit span{font-size:26px;}
+.fund_reservation{
+	background:#b19463;
+	background-image:-webkit-linear-gradient(to right, #b19463, #d0b07e);
+	background-image:-moz-linear-gradient(to right, #b19463, #d0b07e);
+	background-image:-ms-linear-gradient(to right, #b19463, #d0b07e);
+	background-image:-o-linear-gradient(to right, #b19463, #d0b07e);
+	background-image:linear-gradient(to right, #b19463, #d0b07e);
+	border-radius:2px;color:#fff;margin:20px 22px 20px 0;text-align:left;width:295px;
+}
+.fund_reservation .fl{margin:15px 0 0 15px;width:180px;}
+.reservation_interest{font-size:24px;color:#fefefe;margin-bottom:14px;}
+.reservation_interest span{font-size:26px;}
+.reservation_desc{font-size:14px;margin-bottom:14px;}
+.reservation_text{
+	background:#f3b965;
+	background-image:-webkit-linear-gradient(to bottom, #f3b965, #bf934f);
+	background-image:-moz-linear-gradient(to bottom, #f3b965, #bf934f);
+	background-image:-ms-linear-gradient(to bottom, #f3b965, #bf934f);
+	background-image:-o-linear-gradient(to bottom, #f3b965, #bf934f);
+	background-image:linear-gradient(to bottom, #f3b965, #bf934f);
+	width:82px;height:82px;border-radius:50%;text-align:center;line-height:82px;font-size:26px;margin:15px 15px 15px 0;cursor:pointer;
+}
+.fund_reservation.over{background:#1a1a1a;}
+.fund_reservation.over .reservation_text{background:#666;color:#bbb;}
+.fund_consultant{height:66px;line-height:66px;background:#c8a56f;font-size:24px;color:#e0e0e0;text-align:center;margin-top:22px;}
+.bottom50{margin-bottom:50px;}
+.immediately{display:inline-block;width:174px;height:40px;line-height:36px;border:2px solid #e0e0e0;border-radius:21px;font-size:20px;color:#e0e0e0;margin-left:28px;background:url(../../static/images/immediately.png) no-repeat 93% center;}
+.trust{background:#0b0b0b;overflow:hidden;padding:21px 0;}
+.trust li{float:left;width:25%;text-align:center;font-size:12px;color:#999;}
+.trust_tit{font-size:14px;color:#fff;margin:29px 0 7px;}
+.trust_nav li{margin-top:32px;}
+.insurance_nav li a{width:64px;}
+.insurance_item{overflow:hidden;border-bottom:1px solid #3c352b;padding-bottom:21px;margin-top:28px;}
+.insurance_item:first-child{margin-top:64px;}
+.insurance_tit{font-size:26px;color:#fff;}
+.insurance_titdesc{font-size:16px;color:#666;margin:20px 0 27px;}
+.insurance_desc dd{color:#bbb;line-height:36px;background:url(../images/insurance_succicon.png) no-repeat left center;padding-left:28px;}
+.insurance_img{margin-right:45px;}
+.price_num{font-size:18px;color:#fff;width:180px;text-align:center;margin:96px 0 18px;}
+.price_num span{font-size:30px;}
+.insurance_yuyue{display:block;width:180px;height:46px;line-height:46px;text-align:center;background:#c8a56f;font-size:20px;color:#fff;}
+.insurance_yuyue:hover{background:#ba9458;}
+.certification_wrap, .reservation_wrap{position:fixed;left:0;top:0;z-index:10000;width:100%;height:100%;display:table;}
+.certification_section, .reservation_section{display:table-cell;vertical-align:middle;text-align:center;}
+.certification_content{display:inline-block;width:768px;background:#333;}
+.cer_tit{height:76px;line-height:76px;font-size:30px;color:#c8a56f;overflow:hidden;}
+.cer_tit img{margin:13px 47px 0 40px;}
+.cer_content{background:#1a1918;padding:22px 35px;margin:10px;text-align:left;line-height:24px;color:#c8a56f;}
+.cer_content .white{color:#fff;margin:25px 0;}
+.cer_content .cer_checkbox{-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;}
+.cer_content .cer_checkbox span{display:inline-block;border:1px solid #c8a56f;width:15px;height:15px;border-radius:2px;position:relative;top:2px;margin-right:5px;}
+.cer_content .cer_checkbox.checked span{background:url(../images/certificationChecked.png) no-repeat left top;border:none;}
+.cer_content .cer_btn{display:inline-block;width:120px;height:42px;font-size:18px;color:#fff;background:#c8a56f;border:none;border-radius:2px;margin-left:106px;cursor:pointer;}
+.vetically{display:box;box-pack:center;box-align:center;display:-webkit-box;-webkit-box-pack:center;-webkit-box-align:center;}
+.validatePopTips{width:100%;text-align:center;position:fixed;left:0;top:45px;z-index:10001;font-size:0;-webkit-transition:all .5s;transition:all .5s;-webkit-transform:translateY(-150px);transform:translateY(-150px);}
+.validatePopTips span{display:block;background:#fff;font-size:24px;color:#c8a56f;width:540px;height:70px;line-height:70px;border-radius:20px;}
+.validatePopTips span img{position:relative;top:6px;margin-right:5px;}
+.show_down{-webkit-transform:translateY(0);transform:translateY(0);}
+.loading{margin:30px 0 300px 25px;}
