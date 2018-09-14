@@ -1,0 +1,2 @@
+webpackJsonp([6],{dAjm:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticStyle:{background:"url(/Wealth/static/images/homeBanner.jpg) no-repeat center top / 1920px 729px",height:"729px"}})},staticRenderFns:[]},l=n("VU/8")(null,r,!1,null,null,null);t.default=l.exports}});
+//# sourceMappingURL=6.e2bd9af1f0a6d78f362e.js.map
